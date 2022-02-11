@@ -1,13 +1,10 @@
 #include"LED.hpp"
 
 int main(void){
-
-    LED ledaiah;
+    /*
+        test the driver design by creating an LED object
+    */
+    LED<AVR_GPIO> ledaiah_AVR;
+    // LED<ARM_GPIO> ledaiah_ARM;
     return 0;
 }
-// int main(void){
-
-//     GPIO<ARM_GPIO> obj1;
-//     GPIO<AVR_GPIO> obj2;
-//     return 0;
-// }
